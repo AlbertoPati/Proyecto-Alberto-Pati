@@ -2,47 +2,45 @@
     margin: 0;
     padding: 0;
     
-  }
-  body{
+}
+body{
     background-color: white;
-  }
+}
 header{
     background-color: #7c99b4;
     width: auto;
-    height: 70px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;    
-      }
+    justify-content: space-around;
+    display: flex;    
+}
 .titulo-header{
   font-family: 'Kanit', sans-serif;
-  }
+}
 .menu-header{
     font-family: 'Kanit', sans-serif;
     list-style-type: none;
     display: flex; 
     align-items: center;
     justify-content: end; 
-  }
-  .subitem{
+}
+.subitem{
     color: aliceblue;
     font-size: larger;
     display: flex;
     align-items: center;
-  }
+}
 li{
     float: left;
     padding: 0 6px;
-  }
+}
 main{
   
     
-  }
-  .parrafo{
+}
+.parrafo{
     font-style: inherit;
     font-size: larger;
 
-  }
+}
 .segundo-banner{
   width: auto;
   height: 250px;
@@ -57,23 +55,17 @@ main{
 }
 .celu{
   width: 1300px;
-  
-
 }
 footer{
     background-color: #7c99b4;   
     display: flex;
     align-items: center;
     justify-content: space-around; 
-  }
+}
 .texto-footer{
     color: aliceblue;
     font-family: 'Kanit', sans-serif;
-  }
-.subform{
-  background-color: #009FFD;
-}
-  
+}  
 .titulo-tcn{
   display: flex;
   justify-content: center;
