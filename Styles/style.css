@@ -1,9 +1,13 @@
 *{
     margin: 0;
     padding: 0;
+    
+  }
+  body{
+    background-color: white;
   }
 header{
-    background-color: #2A2A72;
+    background-color: #7c99b4;
     width: auto;
     height: 70px;
     display: flex;
@@ -11,9 +15,10 @@ header{
     justify-content: space-around;    
       }
 .titulo-header{
-  font-style: italic;
+  font-family: 'Kanit', sans-serif;
   }
 .menu-header{
+    font-family: 'Kanit', sans-serif;
     list-style-type: none;
     display: flex; 
     align-items: center;
@@ -30,32 +35,45 @@ li{
     padding: 0 6px;
   }
 main{
-    background-color: #009FFD;
+  
+    
   }
   .parrafo{
     font-style: inherit;
     font-size: larger;
 
   }
+.segundo-banner{
+  width: auto;
+  height: 250px;
+  background-color: #5B5750;
+}
+.container-celu{
+  width: auto;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.celu{
+  width: 1300px;
+  
+
+}
 footer{
-    background-color: #2A2A72;
+    background-color: #7c99b4;   
+    display: flex;
+    align-items: center;
+    justify-content: space-around; 
   }
 .texto-footer{
     color: aliceblue;
-  }
-.banner{
-    width: auto;
-    height: 200px;
-    overflow: hidden;
+    font-family: 'Kanit', sans-serif;
   }
 .subform{
   background-color: #009FFD;
 }
-  .footer{
-    margin: -20px 0px 0px 1180px;
-    font-size: large; 
-    color: aliceblue;
-  }
+  
 .titulo-tcn{
   display: flex;
   justify-content: center;
