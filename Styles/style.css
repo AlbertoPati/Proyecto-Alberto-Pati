@@ -5,10 +5,7 @@
 body{
     background-color: white;
 }
-.navbar-collapse{
-  display: flex;
-  justify-content: flex-end;
-}
+
 .parrafo{
     font-style: inherit;
     font-size: larger;
