@@ -78,4 +78,7 @@ footer{
     display: flex;
     flex-direction: column; 
   }
+  .mapa{
+    max-width: 100% !important;
+  }
 }
