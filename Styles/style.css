@@ -35,13 +35,13 @@ body{
 }
 .container-celu{
   width: auto;
-  height: 700px;
+  max-height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .celu{
-  width: 1300px;
+  max-width: 100%;
 }
 .titulo-tcn{
   display: flex;
@@ -65,4 +65,17 @@ footer{
 .texto-footer{
   color: aliceblue;
   font-family: 'Kanit', sans-serif;
+}
+@media (max-width: 575.98px) {
+  .segundo-banner{
+    height: auto; 
+    display: flex;
+    flex-direction: column;
+  }
+footer{
+    background-color: #7c99b4;
+    height: auto;   
+    display: flex;
+    flex-direction: column; 
+  }
 }
