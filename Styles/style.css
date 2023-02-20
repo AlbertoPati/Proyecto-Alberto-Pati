@@ -12,6 +12,24 @@ body{
   display: flex ;
   justify-content: flex-end;
 }
+.nav-item:hover{
+  transform: translateY(-3px);
+  transition: all 0.5s ease-out;
+}
+.card{
+  height: 660px !important;
+  border-radius: 8% !important;
+  margin: 60px 0px 60px 0px;
+  padding: 14px;
+  background-color: #5B5750 !important;
+}
+.card-title{
+  font-family: 'Kanit', sans-serif;
+}
+.card-img-top{
+  border-radius: 50% !important;
+  height: 350px !important;
+}
 .formulario{
   display: flex;
   flex-direction: column;
@@ -19,7 +37,9 @@ body{
 .parrafo{
     font-style: inherit;
     font-size: larger;
-
+}
+.texto-conta{
+  font-family: 'Kanit', sans-serif;
 }
 .segundo-banner{
   width: auto;
@@ -41,7 +61,7 @@ body{
   align-items: center;
 }
 .celu{
-  max-width: 100%;
+  max-width: 70%;
 }
 .titulo-tcn{
   display: flex;
@@ -67,7 +87,7 @@ footer{
   font-family: 'Kanit', sans-serif;
 }
 @media (max-width: 575.98px) {
-  .segundo-banner{
+.segundo-banner{
     height: auto; 
     display: flex;
     flex-direction: column;
@@ -79,6 +99,9 @@ footer{
     flex-direction: column; 
   }
 .mapa{
+  max-width: 100%;
+}
+.celu{
   max-width: 100%;
 }
 }
