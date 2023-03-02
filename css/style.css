@@ -1,0 +1,19 @@
+@media (max-width: 575.98px) {
+.segundo-banner{
+    height: auto; 
+    display: flex;
+    flex-direction: column;
+  }
+footer{
+    background-color: #7c99b4;
+    height: auto;   
+    display: flex;
+    flex-direction: column; 
+  }
+.mapa{
+  max-width: 100%;
+}
+.celu{
+  max-width: 100%;
+}
+}

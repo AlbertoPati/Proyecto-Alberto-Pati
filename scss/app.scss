@@ -1,0 +1,15 @@
+//general
+@import "./general/colores.scss";
+@import "./general/tipografia.scss";
+//layout
+@import "./layout/bordes.scss";
+@import "./layout/header.scss";
+@import "./layout/body.scss";
+@import "./layout/footer.scss";
+
+//pages
+@import "./pages/conocenos.scss";
+@import "./pages/conta.scss";
+@import "./pages/equipamento.scss";
+@import "./pages/index.scss";
+@import "./pages/trabaja-con-nosotros.scss";

@@ -1,0 +1,29 @@
+main{
+    .parrafo{
+        font-style: inherit;
+        font-size: larger;
+    }
+    .segundo-banner{
+        width: auto;
+        height: 250px;
+        background-color: $color-secundario;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        & :hover{
+            transform: scale(1.3);
+            transition: 400ms;
+          }
+      }  
+      .container-celu{
+        width: auto;
+        max-height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .celu{
+            max-width: 70%;
+          }
+      }
+      
+}

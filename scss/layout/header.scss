@@ -1,0 +1,11 @@
+header{
+    background-color: $color-primario!important;
+    .navbar-collapse{
+      display: flex ;
+      justify-content: flex-end;
+      .nav-item:hover{
+        transform: translateY(-3px);
+        transition: all 0.5s ease-out;
+      }
+    }
+  }
