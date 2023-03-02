@@ -1,7 +1,10 @@
-.texto-conta{
+.main-conta{
+  padding: 40px 20px;
+  .texto-conta{
     font-family: $tipografia-1;
-  }
-  .formulario{
-    display: flex;
-    flex-direction: column;
-  }
+    }
+    .formulario{
+      display: flex;
+      flex-direction: column;
+    }
+}

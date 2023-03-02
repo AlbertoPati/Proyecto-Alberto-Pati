@@ -1,5 +1,6 @@
-main{
+.main-index{
     .parrafo{
+        padding: 40px 20px;
         font-style: inherit;
         font-size: larger;
     }
@@ -22,7 +23,7 @@ main{
         justify-content: center;
         align-items: center;
         .celu{
-            max-width: 70%;
+            max-width: 50%;
           }
       }
       

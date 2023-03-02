@@ -3,9 +3,14 @@ header{
     .navbar-collapse{
       display: flex ;
       justify-content: flex-end;
-      .nav-item:hover{
+      .nav-item{
+        &:hover{
         transform: translateY(-3px);
         transition: all 0.5s ease-out;
+        }
+      }
+      .navbar-nav{
+        font-family: $tipografia-2;
       }
     }
   }
