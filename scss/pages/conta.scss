@@ -3,8 +3,13 @@
   .texto-conta{
     font-family: $tipografia-1;
     }
-    .formulario{
+  .formulario{
       display: flex;
       flex-direction: column;
     }
+  .mapa{
+    @media (max-width: 575.98px) {
+        max-width: 100%;
+      }
+  }
 }

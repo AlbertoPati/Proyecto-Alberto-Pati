@@ -1,7 +1,7 @@
 {
   "name": "proyecto-alberto-pati",
   "version": "1.0.0",
-  "description": "",
+  "description": "este es mi proyecto sobre un sitio web basado en un taller mecanico",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
