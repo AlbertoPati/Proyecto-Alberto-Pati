@@ -29,14 +29,71 @@
         width: auto;
         max-height: 100%;
         display: flex;
-        justify-content: center;
         align-items: center;
+        justify-content: center;
+        position: relative;
+        text-align: center;
+    
         .celu{
             max-width: 50%;
             @media (max-width: 575.98px) {
                 max-width: 100%;
                 }
           }
+        .titulo-celu{
+          text-shadow: 3px 3px 3px $color-primario;
+          font-family: $tipografia-1;
+          color: $color-secundario;
+          position: absolute;
+          top: 30%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+        }
+        .item-1{
+          text-shadow: 3px 3px 3px $color-primario;
+          font-family: $tipografia-1;
+          color: $color-secundario;
+          position: absolute;
+          top: 40%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+        }
+        .item-2{
+          text-shadow: 3px 3px 3px $color-primario;
+          font-family: $tipografia-1;
+          color: $color-secundario;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+        }
+        .item-3{
+          text-shadow: 3px 3px 3px $color-primario;
+          font-family: $tipografia-1;
+          color: $color-secundario;
+          position: absolute;
+          top: 60%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+        }
+        .item-4{
+          text-shadow: 3px 3px 3px $color-primario;
+          font-family: $tipografia-1;
+          color: $color-secundario;
+          position: absolute;
+          top: 70%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+        }
+        .item-5{
+          text-shadow: 3px 3px 3px $color-primario;
+          font-family: $tipografia-1;
+          color: $color-secundario;
+          position: absolute;
+          top: 80%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+        }
         }
     
       
