@@ -137,6 +137,11 @@ footer {
       display: flex;
       flex-direction: column; } }
 
+.main-index .parrafo {
+  padding: 0px 20px;
+  font-family: "kanit", sans-serif;
+  font-size: x-large; }
+
 .main-index .container-celu {
   width: auto;
   max-height: 100%;
