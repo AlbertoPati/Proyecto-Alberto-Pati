@@ -142,7 +142,9 @@ footer {
   height: 350px; }
 
 .main-index .carousel-dark .carousel-caption {
-  color: #7c99b4; }
+  font-family: "kanit", sans-serif;
+  color: #492C1D;
+  text-shadow: 1px 1px 1px wheat; }
 
 .main-index .parrafo {
   padding: 30px 20px;

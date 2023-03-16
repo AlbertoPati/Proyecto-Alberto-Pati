@@ -40,7 +40,9 @@
         height: 350px;
       }
       .carousel-dark .carousel-caption{
-        color: $color-primario;
+        font-family: $tipografia-1, sans-serif;
+        color: $color-quinario;
+        text-shadow: 1px 1px 1px wheat;
       }
     .parrafo{
       padding: 30px 20px;
