@@ -1,9 +1,19 @@
 .main-index{
-    .parrafo{
-        padding: 40px 20px;
+    .presentacion{
+      display: flex;
+      flex-direction: column;
+      
+      h1{ 
+        padding: 40px 60px;
         font-family: $tipografia-1, sans-serif;
-        font-size: larger;
+      }
+      .parrafo{
+        padding: 0px 20px;
+          font-family: $tipografia-1, sans-serif;
+          font-size: larger;
+      }
     }
+    
     .segundo-banner{
         width: auto;
         height: 250px;

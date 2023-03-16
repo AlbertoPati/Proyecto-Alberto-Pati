@@ -107,10 +107,16 @@ footer {
     .main-equip .video {
       max-width: 100% !important; } }
 
-.main-index .parrafo {
-  padding: 40px 20px;
-  font-family: "kanit", sans-serif;
-  font-size: larger; }
+.main-index .presentacion {
+  display: flex;
+  flex-direction: column; }
+  .main-index .presentacion h1 {
+    padding: 40px 60px;
+    font-family: "kanit", sans-serif; }
+  .main-index .presentacion .parrafo {
+    padding: 0px 20px;
+    font-family: "kanit", sans-serif;
+    font-size: larger; }
 
 .main-index .segundo-banner {
   width: auto;
