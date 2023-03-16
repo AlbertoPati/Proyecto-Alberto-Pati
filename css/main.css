@@ -114,7 +114,7 @@ footer {
     padding: 40px 60px;
     font-family: "kanit", sans-serif; }
   .main-index .presentacion .parrafo {
-    padding: 0px 20px;
+    padding: 30px 20px;
     font-family: "kanit", sans-serif;
     font-size: larger; }
 
@@ -137,8 +137,15 @@ footer {
       display: flex;
       flex-direction: column; } }
 
+.main-index .w-100 {
+  width: 400px;
+  height: 350px; }
+
+.main-index .carousel-dark .carousel-caption {
+  color: #7c99b4; }
+
 .main-index .parrafo {
-  padding: 0px 20px;
+  padding: 30px 20px;
   font-family: "kanit", sans-serif;
   font-size: x-large; }
 

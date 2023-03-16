@@ -8,7 +8,7 @@
         font-family: $tipografia-1, sans-serif;
       }
       .parrafo{
-        padding: 0px 20px;
+        padding: 30px 20px;
           font-family: $tipografia-1, sans-serif;
           font-size: larger;
       }
@@ -35,8 +35,15 @@
                 flex-direction: column;
               }
       }  
+      .w-100{
+        width: 400px;
+        height: 350px;
+      }
+      .carousel-dark .carousel-caption{
+        color: $color-primario;
+      }
     .parrafo{
-      padding: 0px 20px;
+      padding: 30px 20px;
       font-family: $tipografia-1, sans-serif;
       font-size: x-large;
       }
