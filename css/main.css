@@ -34,16 +34,15 @@ footer {
       display: flex;
       flex-direction: column; } }
 
-.card {
+.main-conocenos .card {
   height: 660px !important;
   border-radius: 8% !important;
   margin: 60px 0px 60px 0px;
   padding: 14px;
   background-color: #5B5750 !important; }
-  .card .card-img-top {
-    border-radius: 50% !important;
-    height: 350px !important; }
-  .card .card-title {
+  .main-conocenos .card .card-img-top {
+    border-radius: 50% !important; }
+  .main-conocenos .card .card-title {
     font-family: "kanit"; }
 
 .main-conta .banner-conta {
@@ -143,8 +142,13 @@ footer {
 
 .main-index .carousel-dark .carousel-caption {
   font-family: "kanit", sans-serif;
-  color: #492C1D;
-  text-shadow: 1px 1px 1px wheat; }
+  color: white;
+  background-color: black;
+  opacity: 50%; }
+
+.main-index .card {
+  background-color: #6B7F82;
+  padding: 100px 0px 0px 0px; }
 
 .main-index .parrafo {
   padding: 30px 20px;
