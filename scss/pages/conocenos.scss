@@ -1,17 +1,39 @@
 .main-conocenos{
+  .titulo-conocenos{
+    padding: 40px 20px 30px;
+    font-family: $tipografia-2;
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: auto-escritura 1.5s steps(40, end) forwards;
+    @keyframes auto-escritura {
+      from {
+        width: 0;
+      }
+      to {
+        width: 100%;
+      }
+    }
+  }
+  #TarjetasConocenos{
+    background-color: $color-quinario;
+  }
   .card{
-    height: 660px !important;
-    border-radius: 8% !important;
+    height: 660px ;
     margin: 60px 0px 60px 0px;
     padding: 14px;
-    background-color: $color-secundario !important;
+    background-color: $color-secundario ;
     .card-img-top{
-        border-radius: 50% !important;
-        
+        border-radius: 10%;        
       }
       .card-title{
         font-family: $tipografia-1;
       }
+  }
+  .parrafo-conocenos{
+    padding: 40px 20px 30px;
+    font-family: $tipografia-2;
+    font-size: 30px;
   }
 }
 

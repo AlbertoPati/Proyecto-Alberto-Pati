@@ -34,16 +34,37 @@ footer {
       display: flex;
       flex-direction: column; } }
 
+.main-conocenos .titulo-conocenos {
+  padding: 40px 20px 30px;
+  font-family: "Tilt Neon";
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: auto-escritura 1.5s steps(40, end) forwards; }
+
+@keyframes auto-escritura {
+  from {
+    width: 0; }
+  to {
+    width: 100%; } }
+
+.main-conocenos #TarjetasConocenos {
+  background-color: #6B7F82; }
+
 .main-conocenos .card {
-  height: 660px !important;
-  border-radius: 8% !important;
+  height: 660px;
   margin: 60px 0px 60px 0px;
   padding: 14px;
-  background-color: #5B5750 !important; }
+  background-color: #5B5750; }
   .main-conocenos .card .card-img-top {
-    border-radius: 50% !important; }
+    border-radius: 10%; }
   .main-conocenos .card .card-title {
     font-family: "kanit"; }
+
+.main-conocenos .parrafo-conocenos {
+  padding: 40px 20px 30px;
+  font-family: "Tilt Neon";
+  font-size: 30px; }
 
 .main-conta .banner-conta {
   width: auto;
@@ -61,7 +82,16 @@ footer {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%); }
+    transform: translate(-50%, -50%);
+    animation: parpadeo .3s ease-in-out 7; }
+
+@keyframes parpadeo {
+  0% {
+    opacity: 1.0; }
+  50% {
+    opacity: 0.0; }
+  100% {
+    opacity: 1.0; } }
 
 .main-conta .container-fluid {
   padding: 40px 20px 40px 20px !important; }
@@ -83,7 +113,9 @@ footer {
 
 .main-equip .texto-equip {
   padding: 0px 10px 30px;
-  font-family: "kanit", sans-serif; }
+  font-family: "kanit", sans-serif;
+  font-size: 24px;
+  background-color: #6B7F82; }
 
 .main-equip .container-de-imagenes {
   width: auto;
@@ -108,7 +140,8 @@ footer {
 
 .main-index .presentacion {
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+  background-color: #6B7F82; }
   .main-index .presentacion h1 {
     padding: 40px 60px;
     font-family: "kanit", sans-serif; }
@@ -158,6 +191,7 @@ footer {
 .main-index .container-celu {
   width: auto;
   max-height: 100%;
+  background-color: #492C1D;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -219,11 +253,40 @@ footer {
 
 main .titulo-tcn {
   padding: 40px 0px 10px;
-  font-family: "kanit", sans-serif; }
+  font-family: "kanit", sans-serif;
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: auto-escritura 1.5s steps(40, end) forwards; }
 
-main .subtitulo-tcn {
-  padding: 0px 0px 10px;
-  font-family: "kanit", sans-serif; }
+@keyframes auto-escritura {
+  from {
+    width: 0; }
+  to {
+    width: 100%; } }
 
-main .imagen-tcn {
-  padding: 0px 0px 10px 0px; }
+main #FormCV {
+  background-color: #5B5750;
+  padding: 40px; }
+  main #FormCV #validationTextarea {
+    background-color: #5B5750; }
+  main #FormCV .form-control:invalid {
+    border-color: black !important; }
+  main #FormCV .form-check-input:invalid {
+    border-color: black !important; }
+  main #FormCV .form-check-label {
+    color: black !important; }
+  main #FormCV #SelecCiud {
+    background-color: #5B5750; }
+  main #FormCV .form-select:invalid {
+    border-color: black !important; }
+  main #FormCV #ExaminCV {
+    background-color: #5B5750; }
+  main #FormCV #BotonEnviar {
+    border-color: black;
+    background-color: #492C1D; }
+
+main .texto-tcn {
+  padding: 30px 20px;
+  font-family: "kanit", sans-serif;
+  font-size: 34px; }

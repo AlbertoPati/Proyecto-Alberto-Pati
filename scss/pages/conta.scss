@@ -17,6 +17,12 @@
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
+      animation: parpadeo .3s ease-in-out 7;
+    }
+    @keyframes parpadeo {
+			0% {opacity: 1.0;}
+			50% {opacity: 0.0;}
+			100% {opacity: 1.0;}
     }
   }
   .container-fluid{

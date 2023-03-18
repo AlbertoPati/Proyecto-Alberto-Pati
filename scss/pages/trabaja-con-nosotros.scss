@@ -2,13 +2,52 @@ main{
   .titulo-tcn{
     padding: 40px 0px 10px;
     font-family: $tipografia-1, sans-serif;
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: auto-escritura 1.5s steps(40, end) forwards;
+    @keyframes auto-escritura {
+      from {
+        width: 0;
+      }
+      to {
+        width: 100%;
+      }
+    }
   }
-  .subtitulo-tcn{
-    padding: 0px 0px 10px;
+  #FormCV{
+    background-color: $color-secundario;
+    padding: 40px;
+    #validationTextarea{
+      background-color: $color-secundario;
+    }
+    .form-control:invalid{
+      border-color: black !important;
+    }
+    .form-check-input:invalid {
+      border-color: black !important;
+    }
+    .form-check-label {
+      color: black !important;
+    }
+    #SelecCiud{
+      background-color: $color-secundario;
+    }
+    .form-select:invalid {
+      border-color: black !important;
+    }
+    #ExaminCV{
+      background-color: $color-secundario;
+    }
+    #BotonEnviar{
+      border-color: black;
+      background-color: $color-setario;
+    }
+  }
+  .texto-tcn{
+    padding: 30px 20px;
     font-family: $tipografia-1, sans-serif;
-  }
-  .imagen-tcn{
-    padding: 0px 0px 10px 0px;
+    font-size: 34px;
   }
 }
       

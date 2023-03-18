@@ -49,10 +49,73 @@
                 <h1 class="titulo-tcn">
                   TE INTERESA TRABAJAR CON NOSOTROS?
                 </h1>
-                <h3 class="subtitulo-tcn">
-                  Gracias por elegirnos pero momentaneamente contamos con todo el personal de trabajo que necesitamos hasta luego...
-                </h3>
-                <img class="imagen-tcn" src="../imagenes/3f0afa7b77ce6338ff97b3fd882796ea.jpg" alt="gatito">
+              </div>
+              <div class="col-xl-1 col-xxl-1"></div>
+            </div>
+          </div>
+          <form class="was-validated" id="FormCV">
+            <div class="mb-3">
+              <label for="validationTextarea" class="form-label">Contanos sobre vos! por que queres trabajar con nosotros?</label>
+              <textarea class="form-control" id="validationTextarea" placeholder="Con confianza!" required></textarea>
+              <div class="invalid-feedback" id="CampoInvalido">
+                Debe completar este campo.
+              </div>
+            </div>
+            <div class="form-check mb-3">
+              <input type="checkbox" class="form-check-input" id="validationFormCheck1" required>
+              <label class="form-check-label" for="validationFormCheck1">Poseo alta disponibilidad horaria</label>
+              <div class="invalid-feedback">Sin amplia disponibilidad horaria no podemos contratarte!</div>
+            </div>
+          
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="validationFormCheck2" name="radio-stacked" required>
+              <label class="form-check-label" for="validationFormCheck2">Masculino</label>
+            </div>
+            <div class="form-check mb-3">
+              <input type="radio" class="form-check-input" id="validationFormCheck3" name="radio-stacked" required>
+              <label class="form-check-label" for="validationFormCheck3">Femenino</label>
+              <div class="invalid-feedback">Debes seleccionar un sexo.</div>
+            </div>
+          
+            <div class="mb-3">
+              <select class="form-select" required aria-label="select example" id="SelecCiud">
+                <option value="">Selecciona una ciudad</option>
+                <option value="Avellaneda">Avellaneda</option>
+                <option value="Berazategui">Berazategui</option>
+                <option value="Berisso">Berisso</option>
+                <option value="Dock Sud">Dock Sud</option>
+                <option value="Ezeiza">Ezeiza</option>
+                <option value="Florencio Varela">Florencio Varela</option>
+                <option value="Lanús">Lanús</option>
+                <option value="Lomas de Zamora">Lomas de Zamora</option>
+                <option value="Monte Grande">Monte Grande</option>
+                <option value="Quilmes">Quilmes</option>
+                <option value="Rafael Calzada">Rafael Calzada</option>
+                <option value="Rafael Castillo">Rafael Castillo</option>
+                <option value="San Francisco Solano">San Francisco Solano</option>
+                <option value="San José">San José</option>
+                <option value="Temperley">Temperley</option>
+                <option value="Wilde">Wilde</option>
+              </select>
+              <div class="invalid-feedback">Por nuestra ubicacion solo podemos tomar personal de zona sur!</div>
+            </div>
+          
+            <div class="mb-3">
+              <input type="file" class="form-control" aria-label="file example" required id="ExaminCV">
+              <div class="invalid-feedback">Adjuntar CV (OBLIGATORIO).</div>
+            </div>
+          
+            <div class="mb-3">
+              <button class="btn btn-primary" type="submit" disabled id="BotonEnviar">Enviar!</button>
+            </div>
+          </form>
+          <div class="container">
+            <div class="row">
+              <div class="col-xl-1 col-xxl-1"></div>
+              <div id="info-equip" class="col-xl-10 col-xxl-10 col-12">
+                <p class="texto-tcn">
+                  ¡Muchas gracias por compartir tu información de contacto y tu currículum con nosotros! Realmente apreciamos el tiempo que has dedicado para presentarte y para mostrarnos tus habilidades y experiencia. Esperamos sinceramente que tu perfil pueda ser lo que estamos buscando para formar parte de nuestro equipo. Te deseamos mucha suerte en tu búsqueda laboral y ojalá podamos contar contigo en el futuro cercano.
+                </p>
               </div>
               <div class="col-xl-1 col-xxl-1"></div>
             </div>
