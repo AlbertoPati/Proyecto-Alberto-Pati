@@ -64,7 +64,8 @@ footer {
 .main-conocenos .parrafo-conocenos {
   padding: 40px 20px 30px;
   font-family: "Tilt Neon";
-  font-size: 30px; }
+  font-size: 30px;
+  text-align: center; }
 
 .main-conta .banner-conta {
   width: auto;
@@ -95,27 +96,49 @@ footer {
 
 .main-conta .container-fluid {
   padding: 40px 20px 40px 20px !important; }
-
-.main-conta .texto-conta {
-  font-family: "kanit"; }
-
-.main-conta .formulario {
-  display: flex;
-  flex-direction: column; }
-
-@media (max-width: 575.98px) {
-  .main-conta .mapa {
-    max-width: 100%; } }
+  .main-conta .container-fluid .texto-conta {
+    font-family: "kanit"; }
+  .main-conta .container-fluid .parrafo-conta {
+    padding: 30px;
+    font-family: "kanit";
+    font-size: x-large;
+    text-align: center; }
+  .main-conta .container-fluid .formulario {
+    display: flex;
+    flex-direction: column; }
+  .main-conta .container-fluid #Separador {
+    background-color: #6B7F82; }
+  .main-conta .container-fluid .ventajas-conta {
+    font-family: "kanit";
+    font-size: x-large;
+    text-align: center; }
+    .main-conta .container-fluid .ventajas-conta .palabra-verde {
+      color: green; }
+  @media (max-width: 575.98px) {
+    .main-conta .container-fluid .mapa {
+      max-width: 100%; } }
 
 .main-equip .titulo-equip {
   padding: 40px 20px 30px;
-  font-family: "Tilt Neon"; }
+  font-family: "Tilt Neon";
+  text-align: center;
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: auto-escritura 1.5s steps(40, end) forwards; }
+
+@keyframes auto-escritura {
+  from {
+    width: 0; }
+  to {
+    width: 100%; } }
 
 .main-equip .texto-equip {
   padding: 0px 10px 30px;
   font-family: "kanit", sans-serif;
   font-size: 24px;
-  background-color: #6B7F82; }
+  background-color: #6B7F82;
+  text-align: center; }
 
 .main-equip .container-de-imagenes {
   width: auto;
@@ -144,11 +167,13 @@ footer {
   background-color: #6B7F82; }
   .main-index .presentacion h1 {
     padding: 40px 60px;
-    font-family: "kanit", sans-serif; }
+    font-family: "kanit", sans-serif;
+    text-align: center; }
   .main-index .presentacion .parrafo {
     padding: 30px 20px;
     font-family: "kanit", sans-serif;
-    font-size: larger; }
+    font-size: 25px;
+    text-align: center; }
 
 .main-index .segundo-banner {
   width: auto;
@@ -289,4 +314,5 @@ main #FormCV {
 main .texto-tcn {
   padding: 30px 20px;
   font-family: "kanit", sans-serif;
-  font-size: 34px; }
+  font-size: 34px;
+  text-align: center; }

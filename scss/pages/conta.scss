@@ -27,17 +27,34 @@
   }
   .container-fluid{
     padding: 40px 20px 40px 20px !important;
-  }
-  .texto-conta{
-    font-family: $tipografia-1;
+    .texto-conta{
+      font-family: $tipografia-1;
     }
-  .formulario{
+    .parrafo-conta{
+      padding: 30px;
+      font-family: $tipografia-1;
+      font-size: x-large;
+      text-align: center;
+    }
+    .formulario{
       display: flex;
       flex-direction: column;
     }
-  .mapa{
-    @media (max-width: 575.98px) {
+    #Separador{
+      background-color: $color-quinario;
+    }
+    .ventajas-conta{
+      font-family: $tipografia-1;
+      font-size: x-large;
+      text-align: center;
+      .palabra-verde{
+        color: green;
+      }
+    }
+    .mapa{
+      @media (max-width: 575.98px) {
         max-width: 100%;
       }
+    }
   }
 }
