@@ -2,6 +2,7 @@ main{
   .titulo-tcn{
     padding: 40px 0px 10px;
     font-family: $tipografia-1, sans-serif;
+    text-align: center;
     display: inline-block;
     white-space: nowrap;
     overflow: hidden;
@@ -13,6 +14,11 @@ main{
       to {
         width: 100%;
       }
+    }
+    @media (max-width: 575.98px) {
+      white-space: normal;
+      max-height: calc(2em * 2);
+      animation: none;
     }
   }
   #FormCV{

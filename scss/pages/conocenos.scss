@@ -2,6 +2,7 @@
   .titulo-conocenos{
     padding: 40px 20px 30px;
     font-family: $tipografia-2;
+    text-align: center;
     display: inline-block;
     white-space: nowrap;
     overflow: hidden;
@@ -13,6 +14,11 @@
       to {
         width: 100%;
       }
+    }
+    @media (max-width: 575.98px) {
+      white-space: normal;
+      max-height: calc(2em * 2);
+      animation: none;
     }
   }
   #TarjetasConocenos{

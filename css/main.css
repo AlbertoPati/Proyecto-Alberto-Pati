@@ -37,6 +37,7 @@ footer {
 .main-conocenos .titulo-conocenos {
   padding: 40px 20px 30px;
   font-family: "Tilt Neon";
+  text-align: center;
   display: inline-block;
   white-space: nowrap;
   overflow: hidden;
@@ -47,6 +48,11 @@ footer {
     width: 0; }
   to {
     width: 100%; } }
+  @media (max-width: 575.98px) {
+    .main-conocenos .titulo-conocenos {
+      white-space: normal;
+      max-height: calc(2em * 2);
+      animation: none; } }
 
 .main-conocenos #TarjetasConocenos {
   background-color: #6B7F82; }
@@ -132,6 +138,11 @@ footer {
     width: 0; }
   to {
     width: 100%; } }
+  @media (max-width: 575.98px) {
+    .main-equip .titulo-equip {
+      white-space: normal;
+      max-height: calc(2em * 2);
+      animation: none; } }
 
 .main-equip .texto-equip {
   padding: 0px 10px 30px;
@@ -279,6 +290,7 @@ footer {
 main .titulo-tcn {
   padding: 40px 0px 10px;
   font-family: "kanit", sans-serif;
+  text-align: center;
   display: inline-block;
   white-space: nowrap;
   overflow: hidden;
@@ -289,6 +301,11 @@ main .titulo-tcn {
     width: 0; }
   to {
     width: 100%; } }
+  @media (max-width: 575.98px) {
+    main .titulo-tcn {
+      white-space: normal;
+      max-height: calc(2em * 2);
+      animation: none; } }
 
 main #FormCV {
   background-color: #5B5750;

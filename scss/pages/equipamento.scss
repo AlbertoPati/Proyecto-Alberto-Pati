@@ -15,6 +15,11 @@
                 width: 100%;
             }
         }
+        @media (max-width: 575.98px) {
+            white-space: normal;
+            max-height: calc(2em * 2);
+            animation: none;
+          }
     }
     .texto-equip{
         padding: 0px 10px 30px;
