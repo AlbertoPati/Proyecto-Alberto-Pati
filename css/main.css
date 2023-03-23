@@ -164,6 +164,10 @@ footer {
     .main-equip .video {
       max-width: 100% !important; } }
 
+@media (max-width: 575.98px) {
+  .main-index #ImgBannerIndex {
+    height: 180px; } }
+
 .main-index .presentacion {
   display: flex;
   flex-direction: column;
