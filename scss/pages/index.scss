@@ -82,6 +82,9 @@
           top: 30%;
           left: 50%;
           transform: translate(-50%, -50%);
+          @media (max-width: 575.98px) {
+            white-space: nowrap;
+            }
         }
         .item-1{
           text-shadow: 3px 3px 3px $color-primario;

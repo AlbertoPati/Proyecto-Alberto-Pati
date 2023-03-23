@@ -246,6 +246,9 @@ footer {
     top: 30%;
     left: 50%;
     transform: translate(-50%, -50%); }
+    @media (max-width: 575.98px) {
+      .main-index .container-celu .titulo-celu {
+        white-space: nowrap; } }
   .main-index .container-celu .item-1 {
     text-shadow: 3px 3px 3px #7c99b4;
     font-family: "kanit";
