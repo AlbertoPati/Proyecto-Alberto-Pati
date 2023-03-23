@@ -141,7 +141,7 @@ footer {
   @media (max-width: 575.98px) {
     .main-equip .titulo-equip {
       white-space: normal;
-      max-height: calc(2em * 2);
+      max-height: 6.4em;
       animation: none; } }
 
 .main-equip .texto-equip {
