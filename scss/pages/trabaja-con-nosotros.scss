@@ -42,6 +42,8 @@ main{
     .form-select:invalid {
       border-color: black !important;
     }
+    /* Aca me vi obligado a usar 4 !important ya que intente ponerle una segunda clase a los forms, y hasta un segundo
+    id, pero seguian sin cambiar, entonces opte por los !important */
     #ExaminCV{
       background-color: $color-secundario;
     }
